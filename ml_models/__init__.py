@@ -1,7 +1,6 @@
 """
 Machine Learning Models from Scratch
-=====================================
-A comprehensive library of machine learning algorithms implemented from scratch using only NumPy.
+A collection of ML algorithms implemented using only NumPy
 """
 
 from .linear_regression import LinearRegression
@@ -23,5 +22,3 @@ __all__ = [
     'NeuralNetwork',
     'KMeans'
 ]
-
-__version__ = '1.0.0'
